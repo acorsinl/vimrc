@@ -8,7 +8,8 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""
 
-
+" Load plugins
+execute pathogen#infect()
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 " General Settings
@@ -64,6 +65,9 @@ set tm_500
 
 " Encoding
 set encoding=utf-8
+
+" Mouse support
+set mouse=a
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""

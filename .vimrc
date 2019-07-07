@@ -138,3 +138,8 @@ set wrap
 " Always show
 set laststatus=2
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""
+" Load plugin stuff
+"""""""""""""""""""""""""""""""""""""""""""""""""
+source .vimplugins

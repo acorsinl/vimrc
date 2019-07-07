@@ -1,0 +1,7 @@
+" Load Nerdtree
+autocmd vimenter * NERDTree
+
+" Vim multiple cursors
+call plug#begin()
+Plug 'terryma/vim-multiple-cursors'
+call plug#end()

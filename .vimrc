@@ -67,7 +67,7 @@ set mat=2
 set noerrorbells
 set novisualbell
 set t_vb=
-set tm_500
+set tm=500
 
 " Encoding
 set encoding=utf-8
@@ -142,4 +142,4 @@ set laststatus=2
 """""""""""""""""""""""""""""""""""""""""""""""""
 " Load plugin stuff
 """""""""""""""""""""""""""""""""""""""""""""""""
-source .vimplugins
+source ~/.vimplugins

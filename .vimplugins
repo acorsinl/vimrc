@@ -1,7 +1,4 @@
 " Load Nerdtree
-autocmd vimenter * NERDTree
-
-" Vim multiple cursors
-call plug#begin()
-Plug 'terryma/vim-multiple-cursors'
-call plug#end()
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

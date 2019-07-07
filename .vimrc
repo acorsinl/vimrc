@@ -36,8 +36,14 @@ set so=7
 " Enable wildmenu
 set wildmenu
 
-" Show current line and row
+" Show current line and row on status bar
 set ruler
+
+" Show line numbers
+set number
+
+" Highlight current line
+set cursorline
 
 " Command bar height
 set cmdheight=2
@@ -68,6 +74,16 @@ set encoding=utf-8
 
 " Mouse support
 set mouse=a
+
+" Code folding
+set foldenable
+
+" Folding method (manual, indent, syntax, expr
+" marker, diff)
+set foldmethod=indent
+
+" Space opens/closes folds
+noremap <space> za
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""

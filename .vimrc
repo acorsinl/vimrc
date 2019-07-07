@@ -82,6 +82,9 @@ set foldenable
 " marker, diff)
 set foldmethod=indent
 
+" Disable folds on opening
+set nofoldenable
+
 " Space opens/closes folds
 noremap <space> za
 
@@ -93,7 +96,7 @@ noremap <space> za
 syntax on
 
 " Colorscheme
-colorscheme murphy
+colorscheme delek
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""

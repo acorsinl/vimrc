@@ -18,6 +18,7 @@
     "Lightline": "https://github.com/itchyny/lightline.vim",
     "vim-gitgutter": "https://github.com/airblade/vim-gitgutter",
     "vim-multiple-cursors": "https://github.com/terryma/vim-multiple-cursors",
-    "nerdtree": "https://github.com/scrooloose/nerdtree.git"
+    "nerdtree": "https://github.com/scrooloose/nerdtree.git",
+    "vim-jsx": "https://github.com/mxw/vim-jsx.git"
   }
 }

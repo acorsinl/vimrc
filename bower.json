@@ -1,0 +1,23 @@
+{
+  "name": "vim_plugins",
+  "homepage": "https://github.com/acorsinl/vimrc",
+  "authors": [
+    "Alberto Corsín Lafuente <alberto@corsin.org>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Lightline": "https://github.com/itchyny/lightline.vim",
+    "vim-gitgutter": "https://github.com/airblade/vim-gitgutter",
+    "vim-multiple-cursors": "https://github.com/terryma/vim-multiple-cursors",
+    "nerdtree": "https://github.com/scrooloose/nerdtree.git"
+  }
+}
